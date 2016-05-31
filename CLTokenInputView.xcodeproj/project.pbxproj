@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AA13CA1CFDCADC005A9C72 /* OpenSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35AA13C91CFDCADC005A9C72 /* OpenSansRegular.ttf */; };
 		65B16B7E18BC16F6003AA819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B16B7D18BC16F6003AA819 /* Foundation.framework */; };
 		65B16B8018BC16F6003AA819 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B16B7F18BC16F6003AA819 /* CoreGraphics.framework */; };
 		65B16B8218BC16F6003AA819 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B16B8118BC16F6003AA819 /* UIKit.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35AA13C91CFDCADC005A9C72 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSansRegular.ttf; sourceTree = "<group>"; };
 		65B16B7A18BC16F6003AA819 /* CLTokenInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLTokenInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B16B7D18BC16F6003AA819 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65B16B7F18BC16F6003AA819 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,6 +141,7 @@
 				65B16BB618BC1826003AA819 /* CLTokenInputViewController.m */,
 				65B16BB718BC1826003AA819 /* CLTokenInputViewController.xib */,
 				65E86F811C407E3A0029E724 /* LaunchScreen.storyboard */,
+				35AA13C91CFDCADC005A9C72 /* OpenSansRegular.ttf */,
 				65B16B8F18BC16F6003AA819 /* Images.xcassets */,
 				65B16B8418BC16F6003AA819 /* Supporting Files */,
 			);
@@ -269,6 +272,7 @@
 				65E86F821C407E3A0029E724 /* LaunchScreen.storyboard in Resources */,
 				65B16B9018BC16F6003AA819 /* Images.xcassets in Resources */,
 				65B16BBA18BC1826003AA819 /* CLTokenInputViewController.xib in Resources */,
+				35AA13CA1CFDCADC005A9C72 /* OpenSansRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

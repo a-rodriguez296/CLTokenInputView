@@ -114,7 +114,7 @@ static CGFloat const FIELD_MARGIN_X = 4.0; // Note: Same as CLTokenView.PADDING_
     }
 
     [self.tokens addObject:token];
-    CLTokenView *tokenView = [[CLTokenView alloc] initWithToken:token font:self.textField.font];
+    CLTokenView *tokenView = [[CLTokenView alloc] initWithToken:token font:[UIFont fontWithName:@"OpenSans" size:17.0]];
     if ([self respondsToSelector:@selector(tintColor)]) {
         tokenView.tintColor = self.tintColor;
     }
